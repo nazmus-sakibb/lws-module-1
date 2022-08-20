@@ -1,6 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import Counter from './components/Counter';
+import Stats from './components/Stats';
 
 function App() {
   return (
@@ -11,6 +11,8 @@ function App() {
   
             <div class="max-w-md mx-auto mt-10 space-y-5">
                 <Counter />
+                <Counter />
+                <Stats count={2}/>
             </div>
         </div>
   );
